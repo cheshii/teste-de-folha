@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "raleway-regular";
+    src: url("./Raleway/static/Raleway-Regular.ttf");
+}
+
+:root {
+    font-family: raleway-regular;
+}
+
+body {
+    margin: 0;
+}
+
+.arrow {
+    cursor: pointer;
+    width: max-content;
+    display: flex;
+    padding-top: .5rem;
+    gap: 8px;
+    align-items: center;
+}
+
+i {
+    font-size: .65rem;
+    color: #38a5bd;
+    
+}
+
+.pClass {
+    font-weight: bolder;
+    color: #38a5bd;
+    cursor: pointer;
+    font-size: small;
+}
+
+.divClass {
+    height: 8rem;
+    padding-left: 4rem;
+    border-bottom: solid #d4dde7;
+}
+
+main {
+    font-weight: bolder;
+    padding-inline: 5rem;
+    padding-top: 1rem;
+    
+}
+
+.butClass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.butClass p {
+    margin: 0;
+}
+
+button {
+    padding: .5rem;
+    color: #6c8d8a;
+    font-family: raleway-regular;
+    font-weight: bold;
+    padding-block: .5rem;
+    padding-inline: .75rem;
+    border-radius: 4px;
+    border: #d6dee8 1px solid;
+    background-color: #eaf0f6;
+    color: #728aa8;
+    cursor: pointer; 
+}
+
+.search {
+    margin-top: 1.50rem;
+    display: flex;
+}
+
+.search div { 
+    background-color: #f5f8fb;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-radius: 4px;
+    border: #dde4ec 1px solid;
+}
+
+.search input {
+    font-family: raleway-regular;
+    font-weight: bold;
+    padding-block: .75rem;
+    padding-left: .25rem;
+    padding-right: 8rem;
+    border-radius: 3px;
+    background-color: #f5f8fb;
+    border: #f5f8fb;
+}
+
+.search input:focus-visible {
+    outline: none;
+}
+
+.icon {
+    font-size: .90rem;
+    color: #138fad;
+    cursor: pointer;
+}
+
+.imgClassContainer {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 1rem;
+}
+
+.imgClass {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e8edf1;
+    gap: .25rem;
+}
+
+.imgClass > div {
+    margin-top: auto;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.imgClass img {
+    width: 100%;    
+}
+
+.imgClass button {
+    font-weight: bold;
+    background-color: #fff;
+    color: #ff754d;
+    border-color: #ff754d;
+    padding-inline: 1rem;
+    
+}
+
+.imgClass p {
+    margin: 0;
+}
+
